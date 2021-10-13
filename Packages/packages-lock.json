@@ -107,6 +107,15 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.metamesh": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.shadergraphassets": {
       "version": "1.0.1",
       "depth": 0,
