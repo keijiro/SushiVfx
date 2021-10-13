@@ -48,7 +48,7 @@ ScriptedImporter:
     Radius: 0.75
     Width: 0.5
     Angle: 1
-    Segments: 400
+    Segments: 512
     Axis: 2
     DoubleSided: 0
   _disc:
