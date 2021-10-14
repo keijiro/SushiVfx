@@ -283,22 +283,6 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!114 &-6344021207396886162
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55fe62ad8c327124a8bfd79a572e6a3c, type: 3}
-  m_Name: JitterMotion
-  m_EditorClassIdentifier: 
-  template:
-    positionAmount: {x: 0.1, y: 0.1, z: 0.1}
-    rotationAmount: {x: 8, y: 8, z: 8}
-    randomSeed: 46
 --- !u!114 &-5896743782216781355
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,7 +357,6 @@ MonoBehaviour:
   - {fileID: 1495719800950717466}
   - {fileID: 7071550175186696812}
   - {fileID: -2524338583944061581}
-  - {fileID: 6847430473255890231}
   - {fileID: 5694845779632844506}
   m_FixedDuration: 0
   m_EditorSettings:
@@ -545,7 +528,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: float.Mesh Scale
+    attribute: float.MeshScale
     path: 
     classID: 2083052967
     script: {fileID: 0}
@@ -786,7 +769,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: float.Mesh Scale
+    attribute: float.MeshScale
     path: 
     classID: 2083052967
     script: {fileID: 0}
@@ -987,98 +970,6 @@ MonoBehaviour:
     frequency: 0.3
     octaves: 2
     randomSeed: 158
---- !u!114 &6847430473255890231
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf8fca7bb2ddee8478cf61bf39019f96, type: 3}
-  m_Name: Procedural Motion Track (1)
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 1
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 0.4666666666666667
-    m_ClipIn: 0
-    m_Asset: {fileID: -6344021207396886162}
-    m_Duration: 0.10000000000000003
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 6847430473255890231}
-    m_EaseInDuration: 0.016666666666666666
-    m_EaseOutDuration: 0.016666666666666666
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 0.4666666666666667
-    m_DisplayName: JitterMotion
-  m_Markers:
-    m_Objects: []
 --- !u!114 &7071550175186696812
 MonoBehaviour:
   m_ObjectHideFlags: 1

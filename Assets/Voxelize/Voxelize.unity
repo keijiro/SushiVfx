@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 49122072}
   - component: {fileID: 49122073}
   m_Layer: 0
-  m_Name: VFX
+  m_Name: Sushi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +203,7 @@ VisualEffect:
       - m_Value: -0.5
         m_Name: Dissolve
         m_Overridden: 1
-      - m_Value: 0.8312535
+      - m_Value: 0.9970808
         m_Name: Entry
         m_Overridden: 1
       - m_Value: 9.938115
@@ -242,13 +242,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49122068}
-  m_LocalRotation: {x: 0, y: 0.9452342, z: -0, w: -0.32639304}
+  m_LocalRotation: {x: -0, y: 0.9452342, z: -0, w: -0.32639304}
   m_LocalPosition: {x: 0, y: -0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1510248622}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 218.1, z: 0}
 --- !u!95 &49122072
 Animator:
@@ -766,8 +766,6 @@ PlayableDirector:
     value: {fileID: 389822647}
   - key: {fileID: -2524338583944061581, guid: e1c42391df58a6f40bd0a6b48401333c, type: 2}
     value: {fileID: 1524612625}
-  - key: {fileID: 6847430473255890231, guid: e1c42391df58a6f40bd0a6b48401333c, type: 2}
-    value: {fileID: 1510248622}
   - key: {fileID: 5694845779632844506, guid: e1c42391df58a6f40bd0a6b48401333c, type: 2}
     value: {fileID: 1890416923}
   m_ExposedReferences:
@@ -786,38 +784,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1510248621
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1510248622}
-  m_Layer: 0
-  m_Name: VFX Jitter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1510248622
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510248621}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 49122071}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1524612623
 GameObject:

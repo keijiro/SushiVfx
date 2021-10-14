@@ -7100,7 +7100,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615119}
   m_ExposedName: Noise
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -8120,7 +8120,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615152}
   m_ExposedName: Width
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -8334,7 +8334,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615192}
   m_ExposedName: Select
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -8728,7 +8728,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615206}
   m_ExposedName: Mesh
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
