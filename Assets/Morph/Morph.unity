@@ -135,10 +135,8 @@ GameObject:
   - component: {fileID: 49122074}
   - component: {fileID: 49122069}
   - component: {fileID: 49122070}
-  - component: {fileID: 49122073}
-  - component: {fileID: 49122072}
   m_Layer: 0
-  m_Name: VFX
+  m_Name: Sushi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,13 +199,13 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.9867019
+      - m_Value: 0
         m_Name: Noise
         m_Overridden: 1
-      - m_Value: 1.000412
+      - m_Value: 0
         m_Name: Width
         m_Overridden: 1
-      - m_Value: 0.05066077
+      - m_Value: 0
         m_Name: Select
         m_Overridden: 1
     m_Vector2f:
@@ -239,7 +237,7 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array:
-      - m_Value: 0
+      - m_Value: 1
         m_Name: Mesh
         m_Overridden: 1
       - m_Value: 1
@@ -261,39 +259,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &49122072
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49122068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fdfea1f838247c40921a07afedde962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Property:
-    m_Name: BaseTransform
-  Target: {fileID: 49122071}
---- !u!114 &49122073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49122068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 49122072}
-  m_VisualEffect: {fileID: 49122070}
 --- !u!95 &49122074
 Animator:
   serializedVersion: 4
@@ -728,7 +695,7 @@ Transform:
   m_Children:
   - {fileID: 1698458263}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2044602786
 Animator:
@@ -831,5 +798,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
